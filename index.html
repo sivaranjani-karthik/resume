@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Required to mention version of HTML5 and what document type it is and it is not HTML tag -->
+<!-- It is an "information" to the browser about what document type to expect -->
+
+<html lang="en">
+  <!-- language of content -->
+
+  <head>
+    <!-- Required meta tags -->
+
+    <meta charset="UTF-8" />
+    <!-- 
+      The charset attribute specifies the character encoding for the HTML document. 
+      The HTML5 specification encourages web developers to use the UTF-8 character set, 
+      which covers almost all of the characters and symbols in the world!
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      This gives the browser instructions on how to control the page's dimensions and scaling.
+      The width=device-width part sets the width of the page to follow the screen-width of the device 
+      (which will vary depending on the device).
+      The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser.
+    -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Title Tag of HTML -->
+    <title>MediLab</title>
+  </head>
+
+  <body>
+    <!-- Script File - JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- TOP BAR -->
+    <div class="top-bar" id="home">
+      <!-- container will give space to right and left corners -->
+      <div class="container">
+        <!-- justify-content-between will justify the DIV-->
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <p><i class="bx bxs-envelope"></i> admin@medilab.com</p>
+            <p><i class="bx bxs-phone-call"></i> +91 04142 1234</p>
+          </div>
+          <div class="col-auto">
+            <div class="social-icons">
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-facebook"></i></a>
+              <a href="#"><i class="bx bxl-instagram"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOP NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">MediLab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- NAV link will start from ms-auto-->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Departments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Reviews</a>
+            </li>
+          </ul>
+          <!-- ms: marigin start, lg: large screen-->
+          <a href="#" class="btn btn-brand ms-lg-3">Make an Appoinment</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="slider-wrapper owl-carousel owl-theme" id="Slider1">
+      <!--Slide 1-->
+      <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h6 class="text-uppercase text-white">We are Here to serve</h6>
+              <h1 class="display-2 my-3 text-white text-uppercase">
+                Specialist on field of <br />
+                doccure
+              </h1>
+              <a href="#" class="btn btn-brand">Get Started</a>
+              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Slide 2-->
+      <div class="slide2 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h6 class="text-uppercase text-white">We are Here to serve</h6>
+              <h1 class="display-2 my-3 text-white text-uppercase">
+                Specialist on field of <br />
+                doccure
+              </h1>
+              <a href="#" class="btn btn-brand">Get Started</a>
+              <a href="#" class="btn btn-outline-light ms-md-3">Our Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
